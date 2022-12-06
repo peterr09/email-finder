@@ -33,7 +33,7 @@ app.get('/', function(req, res){
   });
 });
 
-app.post('/', function(req, res) {
+app.post('/find', function(req, res) {
 
   var data = {
     name: req.body.first_name.trim() + ' ' + req.body.last_name.trim(),
